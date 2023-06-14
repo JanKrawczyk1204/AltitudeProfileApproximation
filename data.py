@@ -12,4 +12,4 @@ def importData(file_name):
     title = ''.join([' ' + char if char.isupper() else char for char in title]).strip()
     plt.title(title)
     plt.show()
-    return data
+    return distance.tolist(), height.tolist(), title
